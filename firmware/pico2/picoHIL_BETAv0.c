@@ -97,8 +97,67 @@ int64_t alarm_callback(alarm_id_t id, void *user_data) {
 #define UART_TX_PIN 4
 #define UART_RX_PIN 5
 
+// ======================================================
+// TESTE DE VALIDACAO VIA USB/SERIAL
+// Envia Va, Vb e Vc para o PC em formato CSV.
+// O valor 5 significa: 1 amostra a cada 5 passos de simulacao.
+// Como dt = 150 us, a taxa nominal e ~666.7 amostras/s.
+// ======================================================
+#define PLOT_EVERY_STEPS 5
+
 const uint LED_PIN = PICO_DEFAULT_LED_PIN;
 const uint GPIO22_MONITOR_OUTPUT = 22;
+
+// ======================================================
+// TESTE E1 — PWM DIGITAL DO F28069M -> GPIO6
+// PicoHIL U1-2 = GPIO6
+//
+// O GPIO6 fica reservado como entrada digital para receber
+// o EPWM1A do F28069M. A medição é feita por interrupção
+// nas bordas de subida e descida, sem alterar a lógica da
+// simulação existente.
+// ======================================================
+const uint PWM_INPUT_PIN = 6;
+
+// Variáveis atualizadas pela interrupção do GPIO6.
+volatile uint64_t pwm_last_rise_us = 0;
+volatile uint64_t pwm_period_us = 0;
+volatile uint64_t pwm_high_us = 0;
+volatile uint64_t pwm_last_edge_us = 0;
+volatile uint32_t pwm_rise_count = 0;
+volatile uint32_t pwm_fall_count = 0;
+volatile bool pwm_have_rise = false;
+volatile bool pwm_have_fall = false;
+
+// Callback de captura do PWM recebido do F28069M.
+void pwm_input_irq_callback(uint gpio, uint32_t events)
+{
+    if (gpio != PWM_INPUT_PIN) return;
+
+    uint64_t now_us = micros();
+    pwm_last_edge_us = now_us;
+
+    if (events & GPIO_IRQ_EDGE_RISE) {
+        pwm_rise_count++;
+
+        if (pwm_have_rise) {
+            pwm_period_us = now_us - pwm_last_rise_us;
+        }
+
+        pwm_last_rise_us = now_us;
+        pwm_have_rise = true;
+    }
+
+    if (events & GPIO_IRQ_EDGE_FALL) {
+        pwm_fall_count++;
+        
+        if (pwm_have_rise) {
+            pwm_high_us = now_us - pwm_last_rise_us;
+            pwm_have_fall = true;
+        }
+    }
+}
+
 
 // ======================================================
 // MAIN
@@ -128,6 +187,32 @@ int main()
     setup_pwm(17, PWM_CHAN_B, 0); // PWM0B
     setup_pwm(18, PWM_CHAN_A, 0); // PWM1A
     setup_pwm(19, PWM_CHAN_B, 0); // PWM1B
+
+    // ======================================================
+    // E1 — GPIO6 como entrada digital para PWM do F28069M
+    // PicoHIL U1-2 = GPIO6
+    // ======================================================
+   
+gpio_init(PWM_INPUT_PIN);
+gpio_set_dir(PWM_INPUT_PIN, GPIO_IN);
+
+/*
+ * Mantém o GPIO6 em LOW quando não há sinal externo.
+ */
+gpio_pull_down(PWM_INPUT_PIN);
+
+/*
+ * Captura as duas bordas do PWM:
+ *
+ * subida  -> mede período
+ * descida -> mede tempo em HIGH
+ */
+gpio_set_irq_enabled_with_callback(
+    PWM_INPUT_PIN,
+    GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL,
+    true,
+    &pwm_input_irq_callback
+);
 
     // I2C Initialisation. Using it at 400Khz.
     i2c_init(I2C_PORT, 400*1000);
@@ -189,7 +274,17 @@ int main()
     int status;
     uint32_t blink_update = millis();
     uint64_t last_step = micros();
+
+    // Contador usado somente pelo teste de aquisicao no PC.
+    uint32_t plot_step_counter = 0;
+    uint32_t pwm_report_millis = millis();
+
+    // Cabecalho identificado pelo script Python.
+    // printf("PICOHIL_PLOT,t,Va,Vb,Vc\n");
+
     while (true) {
+
+        
         watchdog_update();
         // Leitura ADC0 e normalizacao
         adc_select_input(0);
@@ -216,6 +311,22 @@ int main()
             output_circuit(&circuit);
             circuit_stepcost = micros() - step_start;
             gpio_put(GPIO22_MONITOR_OUTPUT, false);
+
+            // --------------------------------------------------
+            // Saida para o "osciloscopio virtual" no PC.
+            // Le as tensoes dos nos A, B e C do circuito trifasico.
+            // A transmissao fica FORA da medicao de circuit_stepcost.
+            // --------------------------------------------------
+            plot_step_counter++;
+            if (plot_step_counter >= PLOT_EVERY_STEPS) {
+                plot_step_counter = 0;
+                
+                //printf("PLOT,%.6f,%.6f,%.6f,%.6f\n",
+                 //      circuit.t,
+                 //      ms_get_node_voltage(&circuit, 1),
+                 //      ms_get_node_voltage(&circuit, 2),
+                //       ms_get_node_voltage(&circuit, 3));
+            }
         }
 
         if (circuit.t >= 10.0f) circuit.t = 0.0f;       
@@ -229,6 +340,14 @@ int main()
         // 
 
         uint32_t now_millis = millis();
+
+//gpio_set_irq_enabled_with_callback(
+    //PWM_INPUT_PIN,
+    //GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL,
+    //true,
+    //&pwm_input_irq_callback
+//);
+
         if(now_millis - blink_update > 250)
         {   blink_update = now_millis;
             gpio_put(LED_PIN, !gpio_get(LED_PIN));
@@ -236,6 +355,44 @@ int main()
             if (status != 0) {
                 printf("Falha na simulação (código %d): %s\n",
                 status, ms_system_status_str(status));
+            }
+
+            // ======================================================
+            // E1 — Relatório do PWM recebido no GPIO6.
+            // Não participa do cálculo do tempo de simulação.
+            // ======================================================
+            if (now_millis - pwm_report_millis >= 1000) {
+                pwm_report_millis = now_millis;
+
+                uint64_t period_copy = pwm_period_us;
+                uint64_t high_copy = pwm_high_us;
+                uint64_t last_edge_copy = pwm_last_edge_us;
+                bool have_rise_copy = pwm_have_rise;
+                bool have_fall_copy = pwm_have_fall;
+
+                // Considera "sem sinal" se nenhuma borda foi detectada
+                // nos últimos 200 ms.
+                bool signal_timeout =
+                     (last_edge_copy == 0) ||
+                     ((uint64_t)millis() * 1000ULL - last_edge_copy > 1500000ULL);
+
+                if (have_rise_copy && have_fall_copy &&
+                    period_copy > 0 && !signal_timeout) {
+                    float pwm_freq_hz = 1000000.0f / (float)period_copy;
+                    float pwm_duty_pct =
+                        100.0f * (float)high_copy / (float)period_copy;
+
+                    printf(
+                        "E1_PWM,GPIO6,period_us=%llu,high_us=%llu,"
+                        "freq_hz=%.3f,duty_pct=%.2f\n",
+                        (unsigned long long)period_copy,
+                        (unsigned long long)high_copy,
+                        pwm_freq_hz,
+                        pwm_duty_pct
+                    );
+                } else {
+                    printf("E1_PWM,GPIO6,sem_sinal\n");
+                }
             }
 
 
@@ -254,6 +411,3 @@ int main()
 
     }
 }
-
-
-
