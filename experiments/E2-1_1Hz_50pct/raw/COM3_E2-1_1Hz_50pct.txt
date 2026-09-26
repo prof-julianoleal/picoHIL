@@ -1,0 +1,722 @@
+---- Opened the serial port COM3 ----
+picoHIL[00217099ms]>> t:2.1186 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00217350ms]>> t:2.3695 steplen: 80us adc0-2: 0.2305 0.2291 0.2227
+picoHIL[00217601ms]>> t:2.6205 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,sem_sinal
+picoHIL[00217852ms]>> t:2.8714 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00218103ms]>> t:3.1223 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00218354ms]>> t:3.3733 steplen: 79us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00218605ms]>> t:3.6242 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,sem_sinal
+picoHIL[00218856ms]>> t:3.8751 steplen: 81us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00219107ms]>> t:4.1263 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+---- Closed the serial port COM3 ----
+---- Opened the serial port COM5 ----
+---- Closed the serial port COM5 ----
+---- Opened the serial port COM3 ----
+picoHIL[00055960ms]>> t:0.9586 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991703,high_us=495852,freq_hz=1.008,duty_pct=50.00
+picoHIL[00056211ms]>> t:1.2095 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00056462ms]>> t:1.4604 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00056713ms]>> t:1.7114 steplen: 80us adc0-2: 0.2293 0.2295 0.2232
+picoHIL[00056964ms]>> t:1.9623 steplen: 80us adc0-2: 0.2295 0.2293 0.2225
+E1_PWM,GPIO6,period_us=991733,high_us=495847,freq_hz=1.008,duty_pct=50.00
+picoHIL[00057215ms]>> t:2.2132 steplen: 80us adc0-2: 0.2298 0.2293 0.2234
+picoHIL[00057466ms]>> t:2.4642 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00057717ms]>> t:2.7151 steplen: 80us adc0-2: 0.2286 0.2291 0.2232
+picoHIL[00057968ms]>> t:2.9660 steplen: 80us adc0-2: 0.2298 0.2293 0.2225
+E1_PWM,GPIO6,period_us=991706,high_us=495853,freq_hz=1.008,duty_pct=50.00
+picoHIL[00058219ms]>> t:3.2171 steplen: 81us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00058470ms]>> t:3.4680 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00058721ms]>> t:3.7188 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00058972ms]>> t:3.9699 steplen: 80us adc0-2: 0.2308 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991720,high_us=495818,freq_hz=1.008,duty_pct=50.00
+picoHIL[00059223ms]>> t:4.2211 steplen: 80us adc0-2: 0.2291 0.2293 0.2227
+picoHIL[00059474ms]>> t:4.4724 steplen: 81us adc0-2: 0.2300 0.2276 0.2230
+picoHIL[00059725ms]>> t:4.7239 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00059976ms]>> t:4.9751 steplen: 81us adc0-2: 0.2293 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991671,high_us=495853,freq_hz=1.008,duty_pct=50.00
+picoHIL[00060227ms]>> t:5.2264 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00060478ms]>> t:5.4779 steplen: 80us adc0-2: 0.2293 0.2295 0.2232
+picoHIL[00060729ms]>> t:5.7292 steplen: 81us adc0-2: 0.2303 0.2293 0.2230
+picoHIL[00060980ms]>> t:5.9805 steplen: 81us adc0-2: 0.2298 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991723,high_us=495857,freq_hz=1.008,duty_pct=50.00
+picoHIL[00061231ms]>> t:6.2319 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00061482ms]>> t:6.4832 steplen: 79us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00061733ms]>> t:6.7345 steplen: 80us adc0-2: 0.2300 0.2291 0.2230
+picoHIL[00061984ms]>> t:6.9859 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991738,high_us=495817,freq_hz=1.008,duty_pct=49.99
+picoHIL[00062235ms]>> t:7.2372 steplen: 79us adc0-2: 0.2298 0.2293 0.2244
+picoHIL[00062486ms]>> t:7.4885 steplen: 80us adc0-2: 0.2295 0.2291 0.2225
+picoHIL[00062737ms]>> t:7.7399 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00062988ms]>> t:7.9912 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991656,high_us=495840,freq_hz=1.008,duty_pct=50.00
+picoHIL[00063239ms]>> t:8.2418 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00063490ms]>> t:8.4924 steplen: 79us adc0-2: 0.2293 0.2293 0.2232
+picoHIL[00063741ms]>> t:8.7429 steplen: 79us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00063992ms]>> t:8.9934 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991624,high_us=495797,freq_hz=1.008,duty_pct=50.00
+picoHIL[00064243ms]>> t:9.2440 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00064494ms]>> t:9.4945 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00064745ms]>> t:9.7450 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00064996ms]>> t:9.9957 steplen: 80us adc0-2: 0.2295 0.2293 0.2234
+E1_PWM,GPIO6,period_us=991604,high_us=495817,freq_hz=1.008,duty_pct=50.00
+picoHIL[00065247ms]>> t:0.2466 steplen: 79us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00065498ms]>> t:0.4975 steplen: 79us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00065749ms]>> t:0.7487 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00066000ms]>> t:0.9997 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991627,high_us=495783,freq_hz=1.008,duty_pct=50.00
+picoHIL[00066251ms]>> t:1.2506 steplen: 79us adc0-2: 0.2295 0.2293 0.2256
+picoHIL[00066502ms]>> t:1.5016 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00066753ms]>> t:1.7525 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00067004ms]>> t:2.0034 steplen: 80us adc0-2: 0.2291 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991689,high_us=495828,freq_hz=1.008,duty_pct=50.00
+picoHIL[00067255ms]>> t:2.2544 steplen: 80us adc0-2: 0.2295 0.2288 0.2232
+picoHIL[00067506ms]>> t:2.5053 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00067757ms]>> t:2.7562 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00068008ms]>> t:3.0073 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991654,high_us=495814,freq_hz=1.008,duty_pct=50.00
+picoHIL[00068259ms]>> t:3.2581 steplen: 80us adc0-2: 0.2291 0.2291 0.2232
+picoHIL[00068510ms]>> t:3.5090 steplen: 80us adc0-2: 0.2327 0.2298 0.2230
+picoHIL[00068761ms]>> t:3.7601 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00069012ms]>> t:4.0110 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991637,high_us=495814,freq_hz=1.008,duty_pct=50.00
+picoHIL[00069263ms]>> t:4.2623 steplen: 79us adc0-2: 0.2295 0.2293 0.2234
+picoHIL[00069514ms]>> t:4.5137 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00069765ms]>> t:4.7650 steplen: 80us adc0-2: 0.2298 0.2300 0.2232
+picoHIL[00070016ms]>> t:5.0163 steplen: 79us adc0-2: 0.2298 0.2291 0.2232
+E1_PWM,GPIO6,period_us=991638,high_us=495801,freq_hz=1.008,duty_pct=50.00
+picoHIL[00070267ms]>> t:5.2677 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00070518ms]>> t:5.5190 steplen: 79us adc0-2: 0.2291 0.2293 0.2225
+picoHIL[00070769ms]>> t:5.7703 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00071020ms]>> t:6.0218 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991666,high_us=495823,freq_hz=1.008,duty_pct=50.00
+picoHIL[00071271ms]>> t:6.2731 steplen: 79us adc0-2: 0.2295 0.2288 0.2234
+picoHIL[00071522ms]>> t:6.5244 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00071773ms]>> t:6.7758 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00072024ms]>> t:7.0271 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991594,high_us=495792,freq_hz=1.008,duty_pct=50.00
+picoHIL[00072275ms]>> t:7.2784 steplen: 80us adc0-2: 0.2293 0.2293 0.2222
+picoHIL[00072526ms]>> t:7.5298 steplen: 80us adc0-2: 0.2295 0.2291 0.2234
+picoHIL[00072777ms]>> t:7.7811 steplen: 80us adc0-2: 0.2295 0.2298 0.2230
+picoHIL[00073028ms]>> t:8.0323 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991629,high_us=495819,freq_hz=1.008,duty_pct=50.00
+picoHIL[00073279ms]>> t:8.2829 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00073530ms]>> t:8.5334 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00073781ms]>> t:8.7839 steplen: 80us adc0-2: 0.2295 0.2295 0.2232
+picoHIL[00074032ms]>> t:9.0346 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991605,high_us=495812,freq_hz=1.008,duty_pct=50.00
+picoHIL[00074283ms]>> t:9.2851 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00074534ms]>> t:9.5356 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00074785ms]>> t:9.7862 steplen: 80us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00075036ms]>> t:0.0368 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991597,high_us=495772,freq_hz=1.008,duty_pct=50.00
+picoHIL[00075287ms]>> t:0.2877 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00075538ms]>> t:0.5388 steplen: 79us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00075789ms]>> t:0.7898 steplen: 80us adc0-2: 0.2298 0.2293 0.2234
+picoHIL[00076040ms]>> t:1.0408 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991600,high_us=495770,freq_hz=1.008,duty_pct=50.00
+picoHIL[00076291ms]>> t:1.2918 steplen: 81us adc0-2: 0.2295 0.2291 0.2225
+picoHIL[00076542ms]>> t:1.5427 steplen: 80us adc0-2: 0.2295 0.2298 0.2230
+picoHIL[00076793ms]>> t:1.7936 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00077044ms]>> t:2.0446 steplen: 81us adc0-2: 0.2293 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991572,high_us=495776,freq_hz=1.008,duty_pct=50.00
+picoHIL[00077295ms]>> t:2.2955 steplen: 79us adc0-2: 0.2298 0.2288 0.2230
+picoHIL[00077546ms]>> t:2.5464 steplen: 79us adc0-2: 0.2295 0.2295 0.2234
+picoHIL[00077797ms]>> t:2.7975 steplen: 81us adc0-2: 0.2291 0.2293 0.2232
+picoHIL[00078048ms]>> t:3.0483 steplen: 80us adc0-2: 0.2298 0.2298 0.2230
+E1_PWM,GPIO6,period_us=991572,high_us=495765,freq_hz=1.008,duty_pct=50.00
+picoHIL[00078299ms]>> t:3.2992 steplen: 79us adc0-2: 0.2293 0.2293 0.2232
+picoHIL[00078550ms]>> t:3.5503 steplen: 81us adc0-2: 0.2295 0.2293 0.2222
+picoHIL[00078801ms]>> t:3.8012 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00079052ms]>> t:4.0521 steplen: 79us adc0-2: 0.2300 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991602,high_us=495816,freq_hz=1.008,duty_pct=50.00
+picoHIL[00079303ms]>> t:4.3036 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00079554ms]>> t:4.5549 steplen: 80us adc0-2: 0.2300 0.2293 0.2227
+picoHIL[00079805ms]>> t:4.8062 steplen: 80us adc0-2: 0.2295 0.2291 0.2247
+picoHIL[00080056ms]>> t:5.0576 steplen: 79us adc0-2: 0.2300 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991596,high_us=495776,freq_hz=1.008,duty_pct=50.00
+picoHIL[00080307ms]>> t:5.3089 steplen: 79us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00080558ms]>> t:5.5602 steplen: 80us adc0-2: 0.2298 0.2295 0.2227
+picoHIL[00080809ms]>> t:5.8116 steplen: 79us adc0-2: 0.2300 0.2295 0.2230
+picoHIL[00081060ms]>> t:6.0629 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+E1_PWM,GPIO6,period_us=991588,high_us=495777,freq_hz=1.008,duty_pct=50.00
+picoHIL[00081311ms]>> t:6.3142 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00081562ms]>> t:6.5657 steplen: 80us adc0-2: 0.2298 0.2288 0.2225
+picoHIL[00081813ms]>> t:6.8169 steplen: 81us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00082064ms]>> t:7.0682 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991603,high_us=495796,freq_hz=1.008,duty_pct=50.00
+picoHIL[00082315ms]>> t:7.3197 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00082566ms]>> t:7.5710 steplen: 81us adc0-2: 0.2295 0.2295 0.2227
+picoHIL[00082817ms]>> t:7.8223 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00083068ms]>> t:8.0735 steplen: 79us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991508,high_us=495771,freq_hz=1.009,duty_pct=50.00
+picoHIL[00083319ms]>> t:8.3240 steplen: 80us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00083570ms]>> t:8.5745 steplen: 80us adc0-2: 0.2298 0.2288 0.2227
+picoHIL[00083821ms]>> t:8.8251 steplen: 81us adc0-2: 0.2295 0.2288 0.2230
+picoHIL[00084072ms]>> t:9.0756 steplen: 79us adc0-2: 0.2295 0.2288 0.2227
+E1_PWM,GPIO6,period_us=991525,high_us=495737,freq_hz=1.009,duty_pct=50.00
+picoHIL[00084323ms]>> t:9.3261 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00084574ms]>> t:9.5767 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00084825ms]>> t:9.8272 steplen: 80us adc0-2: 0.2293 0.2288 0.2230
+picoHIL[00085076ms]>> t:0.0779 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991493,high_us=495739,freq_hz=1.009,duty_pct=50.00
+picoHIL[00085327ms]>> t:0.3289 steplen: 78us adc0-2: 0.2308 0.2293 0.2232
+picoHIL[00085578ms]>> t:0.5799 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00085829ms]>> t:0.8309 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00086080ms]>> t:1.0820 steplen: 80us adc0-2: 0.2320 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991510,high_us=495737,freq_hz=1.009,duty_pct=50.00
+picoHIL[00086331ms]>> t:1.3329 steplen: 79us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00086582ms]>> t:1.5838 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00086833ms]>> t:1.8348 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00087084ms]>> t:2.0857 steplen: 80us adc0-2: 0.2291 0.2293 0.2222
+E1_PWM,GPIO6,period_us=991561,high_us=495757,freq_hz=1.009,duty_pct=50.00
+picoHIL[00087335ms]>> t:2.3366 steplen: 80us adc0-2: 0.2300 0.2288 0.2232
+picoHIL[00087586ms]>> t:2.5877 steplen: 81us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00087837ms]>> t:2.8385 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00088088ms]>> t:3.0894 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991569,high_us=495793,freq_hz=1.009,duty_pct=50.00
+picoHIL[00088339ms]>> t:3.3405 steplen: 80us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00088590ms]>> t:3.5914 steplen: 80us adc0-2: 0.2300 0.2293 0.2227
+picoHIL[00088841ms]>> t:3.8423 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00089092ms]>> t:4.0935 steplen: 80us adc0-2: 0.2293 0.2295 0.2227
+E1_PWM,GPIO6,period_us=991561,high_us=495774,freq_hz=1.009,duty_pct=50.00
+picoHIL[00089343ms]>> t:4.3447 steplen: 80us adc0-2: 0.2295 0.2293 0.2242
+picoHIL[00089594ms]>> t:4.5960 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00089845ms]>> t:4.8475 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00090096ms]>> t:5.0988 steplen: 81us adc0-2: 0.2293 0.2293 0.2222
+E1_PWM,GPIO6,period_us=991579,high_us=495803,freq_hz=1.008,duty_pct=50.00
+picoHIL[00090347ms]>> t:5.3501 steplen: 81us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00090598ms]>> t:5.6015 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00090849ms]>> t:5.8528 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00091100ms]>> t:6.1041 steplen: 80us adc0-2: 0.2295 0.2288 0.2230
+E1_PWM,GPIO6,period_us=991507,high_us=495729,freq_hz=1.009,duty_pct=50.00
+picoHIL[00091351ms]>> t:6.3555 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00091602ms]>> t:6.6068 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00091853ms]>> t:6.8581 steplen: 79us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00092104ms]>> t:7.1095 steplen: 80us adc0-2: 0.2295 0.2320 0.2230
+E1_PWM,GPIO6,period_us=991560,high_us=495782,freq_hz=1.009,duty_pct=50.00
+picoHIL[00092355ms]>> t:7.3608 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00092606ms]>> t:7.6121 steplen: 80us adc0-2: 0.2293 0.2288 0.2225
+picoHIL[00092857ms]>> t:7.8636 steplen: 80us adc0-2: 0.2293 0.2291 0.2242
+picoHIL[00093108ms]>> t:8.1145 steplen: 79us adc0-2: 0.2295 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991540,high_us=495765,freq_hz=1.009,duty_pct=50.00
+picoHIL[00093359ms]>> t:8.3650 steplen: 80us adc0-2: 0.2291 0.2286 0.2227
+picoHIL[00093610ms]>> t:8.6156 steplen: 80us adc0-2: 0.2303 0.2288 0.2227
+picoHIL[00093861ms]>> t:8.8661 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00094112ms]>> t:9.1166 steplen: 80us adc0-2: 0.2298 0.2291 0.2234
+E1_PWM,GPIO6,period_us=991526,high_us=495750,freq_hz=1.009,duty_pct=50.00
+picoHIL[00094363ms]>> t:9.3673 steplen: 79us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00094614ms]>> t:9.6178 steplen: 80us adc0-2: 0.2298 0.2298 0.2230
+picoHIL[00094865ms]>> t:9.8682 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00095116ms]>> t:0.1191 steplen: 79us adc0-2: 0.2300 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991519,high_us=495750,freq_hz=1.009,duty_pct=50.00
+picoHIL[00095367ms]>> t:0.3700 steplen: 78us adc0-2: 0.2295 0.2295 0.2232
+picoHIL[00095618ms]>> t:0.6210 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00095869ms]>> t:0.8722 steplen: 80us adc0-2: 0.2308 0.2291 0.2227
+picoHIL[00096120ms]>> t:1.1231 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991553,high_us=495786,freq_hz=1.009,duty_pct=50.00
+picoHIL[00096371ms]>> t:1.3740 steplen: 80us adc0-2: 0.2298 0.2295 0.2227
+picoHIL[00096622ms]>> t:1.6250 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00096873ms]>> t:1.8759 steplen: 79us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00097124ms]>> t:2.1268 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991484,high_us=495717,freq_hz=1.009,duty_pct=50.00
+picoHIL[00097375ms]>> t:2.3779 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00097626ms]>> t:2.6287 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00097877ms]>> t:2.8796 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00098128ms]>> t:3.1307 steplen: 81us adc0-2: 0.2293 0.2293 0.2232
+E1_PWM,GPIO6,period_us=991506,high_us=495742,freq_hz=1.009,duty_pct=50.00
+picoHIL[00098379ms]>> t:3.3816 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00098630ms]>> t:3.6325 steplen: 80us adc0-2: 0.2288 0.2293 0.2234
+picoHIL[00098881ms]>> t:3.8835 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00099132ms]>> t:4.1346 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991482,high_us=495730,freq_hz=1.009,duty_pct=50.00
+picoHIL[00099383ms]>> t:4.3859 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00099634ms]>> t:4.6373 steplen: 80us adc0-2: 0.2286 0.2291 0.2227
+picoHIL[00099885ms]>> t:4.8886 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00100136ms]>> t:5.1399 steplen: 80us adc0-2: 0.2295 0.2295 0.2227
+E1_PWM,GPIO6,period_us=991527,high_us=495741,freq_hz=1.009,duty_pct=50.00
+picoHIL[00100387ms]>> t:5.3914 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00100638ms]>> t:5.6427 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00100889ms]>> t:5.8939 steplen: 80us adc0-2: 0.2295 0.2298 0.2230
+picoHIL[00101140ms]>> t:6.1454 steplen: 79us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991547,high_us=495798,freq_hz=1.009,duty_pct=50.00
+picoHIL[00101391ms]>> t:6.3967 steplen: 80us adc0-2: 0.2291 0.2291 0.2230
+picoHIL[00101642ms]>> t:6.6480 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00101893ms]>> t:6.8994 steplen: 80us adc0-2: 0.2291 0.2293 0.2232
+picoHIL[00102144ms]>> t:7.1507 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991538,high_us=495740,freq_hz=1.009,duty_pct=50.00
+picoHIL[00102395ms]>> t:7.4020 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00102646ms]>> t:7.6534 steplen: 79us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00102897ms]>> t:7.9047 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00103148ms]>> t:8.1555 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991547,high_us=495781,freq_hz=1.009,duty_pct=50.00
+picoHIL[00103399ms]>> t:8.4062 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00103650ms]>> t:8.6567 steplen: 79us adc0-2: 0.2293 0.2291 0.2225
+picoHIL[00103901ms]>> t:8.9071 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00104152ms]>> t:9.1578 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991553,high_us=495721,freq_hz=1.009,duty_pct=49.99
+picoHIL[00104403ms]>> t:9.4083 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00104654ms]>> t:9.6588 steplen: 80us adc0-2: 0.2295 0.2295 0.2227
+picoHIL[00104905ms]>> t:9.9094 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00105156ms]>> t:0.1602 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991463,high_us=495708,freq_hz=1.009,duty_pct=50.00
+picoHIL[00105407ms]>> t:0.4111 steplen: 79us adc0-2: 0.2300 0.2291 0.2232
+picoHIL[00105658ms]>> t:0.6623 steplen: 78us adc0-2: 0.2300 0.2295 0.2232
+picoHIL[00105909ms]>> t:0.9133 steplen: 79us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00106160ms]>> t:1.1642 steplen: 81us adc0-2: 0.2300 0.2295 0.2232
+E1_PWM,GPIO6,period_us=991486,high_us=495746,freq_hz=1.009,duty_pct=50.00
+picoHIL[00106411ms]>> t:1.4152 steplen: 81us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00106662ms]>> t:1.6661 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00106913ms]>> t:1.9170 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00107164ms]>> t:2.1681 steplen: 80us adc0-2: 0.2295 0.2288 0.2227
+E1_PWM,GPIO6,period_us=991519,high_us=495759,freq_hz=1.009,duty_pct=50.00
+picoHIL[00107415ms]>> t:2.4189 steplen: 79us adc0-2: 0.2303 0.2291 0.2230
+picoHIL[00107666ms]>> t:2.6698 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00107917ms]>> t:2.9209 steplen: 81us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00108168ms]>> t:3.1718 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991539,high_us=495763,freq_hz=1.009,duty_pct=50.00
+picoHIL[00108419ms]>> t:3.4227 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00108670ms]>> t:3.6737 steplen: 80us adc0-2: 0.2295 0.2293 0.2239
+picoHIL[00108921ms]>> t:3.9246 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00109172ms]>> t:4.1758 steplen: 80us adc0-2: 0.2317 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991547,high_us=495757,freq_hz=1.009,duty_pct=50.00
+picoHIL[00109423ms]>> t:4.4272 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00109674ms]>> t:4.6785 steplen: 80us adc0-2: 0.2303 0.2293 0.2230
+picoHIL[00109925ms]>> t:4.9298 steplen: 80us adc0-2: 0.2293 0.2295 0.2230
+picoHIL[00110176ms]>> t:5.1812 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991509,high_us=495701,freq_hz=1.009,duty_pct=49.99
+picoHIL[00110427ms]>> t:5.4325 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00110678ms]>> t:5.6838 steplen: 80us adc0-2: 0.2300 0.2293 0.2227
+picoHIL[00110929ms]>> t:5.9353 steplen: 80us adc0-2: 0.2295 0.2288 0.2232
+picoHIL[00111180ms]>> t:6.1865 steplen: 80us adc0-2: 0.2293 0.2295 0.2227
+E1_PWM,GPIO6,period_us=991440,high_us=495704,freq_hz=1.009,duty_pct=50.00
+picoHIL[00111431ms]>> t:6.4378 steplen: 80us adc0-2: 0.2295 0.2295 0.2225
+---- Closed the serial port COM3 ----
+---- Opened the serial port COM3 ----
+E1_PWM,GPIO6,period_us=991290,high_us=495656,freq_hz=1.009,duty_pct=50.00
+picoHIL[00552187ms]>> t:7.2456 steplen: 79us adc0-2: 0.2293 0.2293 0.2225
+picoHIL[00552438ms]>> t:7.4969 steplen: 79us adc0-2: 0.2298 0.2288 0.2230
+picoHIL[00552689ms]>> t:7.7482 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00552940ms]>> t:7.9997 steplen: 80us adc0-2: 0.2295 0.2293 0.2222
+E1_PWM,GPIO6,period_us=991283,high_us=495638,freq_hz=1.009,duty_pct=50.00
+picoHIL[00553191ms]>> t:8.2501 steplen: 81us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00553442ms]>> t:8.5006 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00553693ms]>> t:8.7513 steplen: 80us adc0-2: 0.2295 0.2232 0.2230
+picoHIL[00553944ms]>> t:9.0018 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991238,high_us=495604,freq_hz=1.009,duty_pct=50.00
+picoHIL[00554195ms]>> t:9.2523 steplen: 80us adc0-2: 0.2300 0.2293 0.2164
+picoHIL[00554446ms]>> t:9.5029 steplen: 81us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00554697ms]>> t:9.7534 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00554948ms]>> t:0.0039 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991277,high_us=495608,freq_hz=1.009,duty_pct=50.00
+picoHIL[00555199ms]>> t:0.2550 steplen: 79us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00555450ms]>> t:0.5059 steplen: 79us adc0-2: 0.2295 0.2293 0.2244
+picoHIL[00555701ms]>> t:0.7569 steplen: 80us adc0-2: 0.2291 0.2291 0.2230
+picoHIL[00555952ms]>> t:1.0081 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991321,high_us=495659,freq_hz=1.009,duty_pct=50.00
+picoHIL[00556203ms]>> t:1.2590 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00556454ms]>> t:1.5099 steplen: 81us adc0-2: 0.2293 0.2295 0.2227
+picoHIL[00556705ms]>> t:1.7609 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00556956ms]>> t:2.0118 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991287,high_us=495631,freq_hz=1.009,duty_pct=50.00
+picoHIL[00557207ms]>> t:2.2627 steplen: 81us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00557458ms]>> t:2.5137 steplen: 80us adc0-2: 0.2291 0.2293 0.2232
+picoHIL[00557709ms]>> t:2.7646 steplen: 79us adc0-2: 0.2303 0.2293 0.2230
+picoHIL[00557960ms]>> t:3.0155 steplen: 80us adc0-2: 0.2291 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991331,high_us=495647,freq_hz=1.009,duty_pct=50.00
+picoHIL[00558211ms]>> t:3.2665 steplen: 80us adc0-2: 0.2295 0.2295 0.2203
+picoHIL[00558462ms]>> t:3.5174 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00558713ms]>> t:3.7683 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00558964ms]>> t:4.0194 steplen: 81us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991362,high_us=495680,freq_hz=1.009,duty_pct=50.00
+picoHIL[00559215ms]>> t:4.2707 steplen: 80us adc0-2: 0.2295 0.2293 0.2256
+picoHIL[00559466ms]>> t:4.5220 steplen: 80us adc0-2: 0.2293 0.2293 0.2252
+picoHIL[00559717ms]>> t:4.7734 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00559968ms]>> t:5.0247 steplen: 80us adc0-2: 0.2300 0.2291 0.2239
+E1_PWM,GPIO6,period_us=991259,high_us=495640,freq_hz=1.009,duty_pct=50.00
+picoHIL[00560219ms]>> t:5.2760 steplen: 79us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00560470ms]>> t:5.5274 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00560721ms]>> t:5.7787 steplen: 80us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00560972ms]>> t:6.0300 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+E1_PWM,GPIO6,period_us=991255,high_us=495576,freq_hz=1.009,duty_pct=49.99
+picoHIL[00561223ms]>> t:6.2815 steplen: 79us adc0-2: 0.1939 0.2293 0.2227
+picoHIL[00561474ms]>> t:6.5328 steplen: 80us adc0-2: 0.2298 0.2298 0.2230
+picoHIL[00561725ms]>> t:6.7841 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00561976ms]>> t:7.0355 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991263,high_us=495631,freq_hz=1.009,duty_pct=50.00
+picoHIL[00562227ms]>> t:7.2868 steplen: 79us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00562478ms]>> t:7.5381 steplen: 80us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00562729ms]>> t:7.7895 steplen: 80us adc0-2: 0.2295 0.2288 0.2227
+picoHIL[00562980ms]>> t:8.0407 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991291,high_us=495625,freq_hz=1.009,duty_pct=50.00
+picoHIL[00563231ms]>> t:8.2912 steplen: 80us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00563482ms]>> t:8.5418 steplen: 81us adc0-2: 0.2295 0.2308 0.2230
+picoHIL[00563733ms]>> t:8.7923 steplen: 79us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00563984ms]>> t:9.0428 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991269,high_us=495612,freq_hz=1.009,duty_pct=50.00
+picoHIL[00564235ms]>> t:9.2934 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00564486ms]>> t:9.5439 steplen: 79us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00564737ms]>> t:9.7944 steplen: 80us adc0-2: 0.2298 0.2298 0.2230
+picoHIL[00564988ms]>> t:0.0451 steplen: 79us adc0-2: 0.2305 0.2298 0.2230
+E1_PWM,GPIO6,period_us=991229,high_us=495591,freq_hz=1.009,duty_pct=50.00
+picoHIL[00565239ms]>> t:0.2961 steplen: 79us adc0-2: 0.2298 0.2291 0.2234
+picoHIL[00565490ms]>> t:0.5470 steplen: 79us adc0-2: 0.2293 0.2288 0.2227
+picoHIL[00565741ms]>> t:0.7982 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00565992ms]>> t:1.0492 steplen: 80us adc0-2: 0.2293 0.2293 0.2222
+E1_PWM,GPIO6,period_us=991232,high_us=495617,freq_hz=1.009,duty_pct=50.00
+picoHIL[00566243ms]>> t:1.3001 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00566494ms]>> t:1.5511 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00566745ms]>> t:1.8020 steplen: 80us adc0-2: 0.2298 0.2295 0.2227
+picoHIL[00566996ms]>> t:2.0529 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991259,high_us=495647,freq_hz=1.009,duty_pct=50.00
+picoHIL[00567247ms]>> t:2.3039 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00567498ms]>> t:2.5548 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00567749ms]>> t:2.8057 steplen: 81us adc0-2: 0.2293 0.2298 0.2230
+picoHIL[00568000ms]>> t:3.0567 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991233,high_us=495601,freq_hz=1.009,duty_pct=50.00
+picoHIL[00568251ms]>> t:3.3076 steplen: 80us adc0-2: 0.2293 0.2293 0.2234
+picoHIL[00568502ms]>> t:3.5585 steplen: 80us adc0-2: 0.2300 0.2293 0.2227
+picoHIL[00568753ms]>> t:3.8096 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00569004ms]>> t:4.0606 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991301,high_us=495624,freq_hz=1.009,duty_pct=50.00
+picoHIL[00569255ms]>> t:4.3119 steplen: 79us adc0-2: 0.2295 0.2293 0.2237
+picoHIL[00569506ms]>> t:4.5633 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00569757ms]>> t:4.8146 steplen: 80us adc0-2: 0.2300 0.2291 0.2242
+picoHIL[00570008ms]>> t:5.0659 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991217,high_us=495596,freq_hz=1.009,duty_pct=50.00
+picoHIL[00570259ms]>> t:5.3173 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00570510ms]>> t:5.5686 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00570761ms]>> t:5.8199 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00571012ms]>> t:6.0713 steplen: 80us adc0-2: 0.2303 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991180,high_us=495586,freq_hz=1.009,duty_pct=50.00
+picoHIL[00571263ms]>> t:6.3226 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00571514ms]>> t:6.5739 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00571765ms]>> t:6.8254 steplen: 80us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00572016ms]>> t:7.0766 steplen: 80us adc0-2: 0.2298 0.2288 0.2227
+E1_PWM,GPIO6,period_us=991158,high_us=495568,freq_hz=1.009,duty_pct=50.00
+picoHIL[00572267ms]>> t:7.3279 steplen: 81us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00572518ms]>> t:7.5794 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00572769ms]>> t:7.8307 steplen: 80us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00573020ms]>> t:8.0817 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991218,high_us=495613,freq_hz=1.009,duty_pct=50.00
+picoHIL[00573271ms]>> t:8.3323 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00573522ms]>> t:8.5828 steplen: 79us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00573773ms]>> t:8.8333 steplen: 81us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00574024ms]>> t:9.0840 steplen: 80us adc0-2: 0.2303 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991198,high_us=495595,freq_hz=1.009,duty_pct=50.00
+picoHIL[00574275ms]>> t:9.3345 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00574526ms]>> t:9.5850 steplen: 81us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00574777ms]>> t:9.8356 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00575028ms]>> t:0.0863 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991179,high_us=495632,freq_hz=1.009,duty_pct=50.00
+picoHIL[00575279ms]>> t:0.3372 steplen: 79us adc0-2: 0.2310 0.2293 0.2232
+picoHIL[00575530ms]>> t:0.5883 steplen: 79us adc0-2: 0.2295 0.2298 0.2230
+picoHIL[00575781ms]>> t:0.8393 steplen: 80us adc0-2: 0.2293 0.2269 0.2232
+picoHIL[00576032ms]>> t:1.0903 steplen: 80us adc0-2: 0.2293 0.2291 0.2222
+E1_PWM,GPIO6,period_us=991313,high_us=495671,freq_hz=1.009,duty_pct=50.00
+picoHIL[00576283ms]>> t:1.3413 steplen: 79us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00576534ms]>> t:1.5922 steplen: 80us adc0-2: 0.2295 0.2288 0.2230
+picoHIL[00576785ms]>> t:1.8431 steplen: 80us adc0-2: 0.2291 0.2293 0.2298
+picoHIL[00577036ms]>> t:2.0941 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991342,high_us=495612,freq_hz=1.009,duty_pct=49.99
+picoHIL[00577287ms]>> t:2.3450 steplen: 80us adc0-2: 0.2295 0.2293 0.2234
+picoHIL[00577538ms]>> t:2.5959 steplen: 81us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00577789ms]>> t:2.8469 steplen: 80us adc0-2: 0.2291 0.2291 0.2232
+picoHIL[00578040ms]>> t:3.0978 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991264,high_us=495616,freq_hz=1.009,duty_pct=50.00
+picoHIL[00578291ms]>> t:3.3487 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00578542ms]>> t:3.5998 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00578793ms]>> t:3.8507 steplen: 79us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00579044ms]>> t:4.1017 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+E1_PWM,GPIO6,period_us=991284,high_us=495616,freq_hz=1.009,duty_pct=50.00
+picoHIL[00579295ms]>> t:4.3532 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00579546ms]>> t:4.6044 steplen: 81us adc0-2: 0.2295 0.2288 0.2227
+picoHIL[00579797ms]>> t:4.8557 steplen: 81us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00580048ms]>> t:5.1072 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991243,high_us=495544,freq_hz=1.009,duty_pct=49.99
+picoHIL[00580299ms]>> t:5.3585 steplen: 81us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00580550ms]>> t:5.6098 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00580801ms]>> t:5.8612 steplen: 81us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00581052ms]>> t:6.1125 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991139,high_us=495595,freq_hz=1.009,duty_pct=50.00
+picoHIL[00581303ms]>> t:6.3638 steplen: 80us adc0-2: 0.2300 0.2293 0.2227
+picoHIL[00581554ms]>> t:6.6152 steplen: 80us adc0-2: 0.2300 0.2293 0.2232
+picoHIL[00581805ms]>> t:6.8665 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00582056ms]>> t:7.1178 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991241,high_us=495627,freq_hz=1.009,duty_pct=50.00
+picoHIL[00582307ms]>> t:7.3692 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00582558ms]>> t:7.6205 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00582809ms]>> t:7.8718 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00583060ms]>> t:8.1229 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991296,high_us=495626,freq_hz=1.009,duty_pct=50.00
+picoHIL[00583311ms]>> t:8.3734 steplen: 79us adc0-2: 0.2295 0.2288 0.2227
+picoHIL[00583562ms]>> t:8.6239 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00583813ms]>> t:8.8745 steplen: 79us adc0-2: 0.2298 0.2295 0.2227
+picoHIL[00584064ms]>> t:9.1250 steplen: 81us adc0-2: 0.2295 0.2291 0.2232
+E1_PWM,GPIO6,period_us=991260,high_us=495634,freq_hz=1.009,duty_pct=50.00
+picoHIL[00584315ms]>> t:9.3755 steplen: 80us adc0-2: 0.2293 0.2293 0.2222
+picoHIL[00584566ms]>> t:9.6261 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00584817ms]>> t:9.8766 steplen: 80us adc0-2: 0.2300 0.2295 0.2234
+picoHIL[00585068ms]>> t:0.1274 steplen: 78us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991317,high_us=495660,freq_hz=1.009,duty_pct=50.00
+picoHIL[00585319ms]>> t:0.3784 steplen: 79us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00585570ms]>> t:0.6294 steplen: 78us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00585821ms]>> t:0.8804 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00586072ms]>> t:1.1315 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991320,high_us=495651,freq_hz=1.009,duty_pct=50.00
+picoHIL[00586323ms]>> t:1.3824 steplen: 80us adc0-2: 0.2293 0.2288 0.2230
+picoHIL[00586574ms]>> t:1.6333 steplen: 80us adc0-2: 0.2295 0.2298 0.2227
+picoHIL[00586825ms]>> t:1.8843 steplen: 79us adc0-2: 0.2293 0.2293 0.2222
+picoHIL[00587076ms]>> t:2.1352 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991318,high_us=495652,freq_hz=1.009,duty_pct=50.00
+picoHIL[00587327ms]>> t:2.3861 steplen: 81us adc0-2: 0.2295 0.2295 0.2227
+picoHIL[00587578ms]>> t:2.6371 steplen: 80us adc0-2: 0.2300 0.2298 0.2225
+picoHIL[00587829ms]>> t:2.8880 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00588080ms]>> t:3.1389 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991325,high_us=495629,freq_hz=1.009,duty_pct=50.00
+picoHIL[00588331ms]>> t:3.3900 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00588582ms]>> t:3.6409 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00588833ms]>> t:3.8918 steplen: 81us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00589084ms]>> t:4.1430 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991285,high_us=495670,freq_hz=1.009,duty_pct=50.00
+picoHIL[00589335ms]>> t:4.3943 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00589586ms]>> t:4.6456 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00589837ms]>> t:4.8970 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00590088ms]>> t:5.1483 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991309,high_us=495626,freq_hz=1.009,duty_pct=50.00
+picoHIL[00590339ms]>> t:5.3996 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00590590ms]>> t:5.6511 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00590841ms]>> t:5.9024 steplen: 79us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00591092ms]>> t:6.1536 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991261,high_us=495623,freq_hz=1.009,duty_pct=50.00
+picoHIL[00591343ms]>> t:6.4051 steplen: 79us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00591594ms]>> t:6.6564 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00591845ms]>> t:6.9077 steplen: 79us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00592096ms]>> t:7.1591 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991278,high_us=495618,freq_hz=1.009,duty_pct=50.00
+picoHIL[00592347ms]>> t:7.4104 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00592598ms]>> t:7.6617 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00592849ms]>> t:7.9131 steplen: 79us adc0-2: 0.2291 0.2291 0.2230
+picoHIL[00593100ms]>> t:8.1639 steplen: 80us adc0-2: 0.2298 0.2295 0.2225
+E1_PWM,GPIO6,period_us=991237,high_us=495629,freq_hz=1.009,duty_pct=50.00
+picoHIL[00593351ms]>> t:8.4144 steplen: 80us adc0-2: 0.2291 0.2291 0.2230
+picoHIL[00593602ms]>> t:8.6650 steplen: 80us adc0-2: 0.2291 0.2291 0.2227
+picoHIL[00593853ms]>> t:8.9155 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00594104ms]>> t:9.1660 steplen: 80us adc0-2: 0.2293 0.2288 0.2227
+E1_PWM,GPIO6,period_us=991289,high_us=495642,freq_hz=1.009,duty_pct=50.00
+picoHIL[00594355ms]>> t:9.4167 steplen: 80us adc0-2: 0.2295 0.2293 0.2222
+picoHIL[00594606ms]>> t:9.6672 steplen: 80us adc0-2: 0.2288 0.2291 0.2230
+picoHIL[00594857ms]>> t:9.9177 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00595108ms]>> t:0.1686 steplen: 79us adc0-2: 0.2293 0.2295 0.2232
+E1_PWM,GPIO6,period_us=991294,high_us=495664,freq_hz=1.009,duty_pct=50.00
+picoHIL[00595359ms]>> t:0.4195 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00595610ms]>> t:0.6705 steplen: 79us adc0-2: 0.2298 0.2344 0.2230
+picoHIL[00595861ms]>> t:0.9217 steplen: 79us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00596112ms]>> t:1.1726 steplen: 80us adc0-2: 0.2295 0.2276 0.2230
+E1_PWM,GPIO6,period_us=991398,high_us=495731,freq_hz=1.009,duty_pct=50.00
+picoHIL[00596363ms]>> t:1.4235 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00596614ms]>> t:1.6745 steplen: 79us adc0-2: 0.2300 0.2291 0.2230
+picoHIL[00596865ms]>> t:1.9254 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00597116ms]>> t:2.1763 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991460,high_us=495713,freq_hz=1.009,duty_pct=50.00
+picoHIL[00597367ms]>> t:2.4273 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00597618ms]>> t:2.6782 steplen: 79us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00597869ms]>> t:2.9291 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00598120ms]>> t:3.1802 steplen: 80us adc0-2: 0.2291 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991480,high_us=495756,freq_hz=1.009,duty_pct=50.00
+picoHIL[00598371ms]>> t:3.4311 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+picoHIL[00598622ms]>> t:3.6820 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00598873ms]>> t:3.9330 steplen: 79us adc0-2: 0.2298 0.2295 0.2232
+picoHIL[00599124ms]>> t:4.1842 steplen: 80us adc0-2: 0.2298 0.2293 0.2232
+E1_PWM,GPIO6,period_us=991527,high_us=495691,freq_hz=1.009,duty_pct=49.99
+picoHIL[00599375ms]>> t:4.4355 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00599626ms]>> t:4.6869 steplen: 80us adc0-2: 0.2300 0.2298 0.2225
+picoHIL[00599877ms]>> t:4.9382 steplen: 79us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00600128ms]>> t:5.1895 steplen: 79us adc0-2: 0.2286 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991410,high_us=495713,freq_hz=1.009,duty_pct=50.00
+picoHIL[00600379ms]>> t:5.4409 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00600630ms]>> t:5.6922 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00600881ms]>> t:5.9435 steplen: 79us adc0-2: 0.2295 0.2288 0.2227
+picoHIL[00601132ms]>> t:6.1950 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991459,high_us=495715,freq_hz=1.009,duty_pct=50.00
+picoHIL[00601383ms]>> t:6.4462 steplen: 79us adc0-2: 0.2295 0.2293 0.2176
+picoHIL[00601634ms]>> t:6.6975 steplen: 80us adc0-2: 0.2293 0.2293 0.2232
+picoHIL[00601885ms]>> t:6.9490 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00602136ms]>> t:7.2003 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991475,high_us=495723,freq_hz=1.009,duty_pct=50.00
+picoHIL[00602387ms]>> t:7.4516 steplen: 81us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00602638ms]>> t:7.7030 steplen: 81us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00602889ms]>> t:7.9543 steplen: 81us adc0-2: 0.2295 0.2295 0.2232
+picoHIL[00603140ms]>> t:8.2049 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991456,high_us=495687,freq_hz=1.009,duty_pct=50.00
+picoHIL[00603391ms]>> t:8.4556 steplen: 80us adc0-2: 0.2291 0.2295 0.2230
+picoHIL[00603642ms]>> t:8.7061 steplen: 79us adc0-2: 0.2298 0.2293 0.2227
+picoHIL[00603893ms]>> t:8.9566 steplen: 80us adc0-2: 0.2298 0.2293 0.2232
+picoHIL[00604144ms]>> t:9.2072 steplen: 80us adc0-2: 0.2303 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991451,high_us=495732,freq_hz=1.009,duty_pct=50.00
+picoHIL[00604395ms]>> t:9.4577 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00604646ms]>> t:9.7082 steplen: 79us adc0-2: 0.2303 0.2288 0.2225
+picoHIL[00604897ms]>> t:9.9588 steplen: 80us adc0-2: 0.2295 0.2286 0.2230
+picoHIL[00605148ms]>> t:0.2097 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991449,high_us=495720,freq_hz=1.009,duty_pct=50.00
+picoHIL[00605399ms]>> t:0.4606 steplen: 79us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00605650ms]>> t:0.7118 steplen: 80us adc0-2: 0.2293 0.2295 0.2230
+picoHIL[00605901ms]>> t:0.9628 steplen: 80us adc0-2: 0.2293 0.2298 0.2230
+picoHIL[00606152ms]>> t:1.2137 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991436,high_us=495679,freq_hz=1.009,duty_pct=50.00
+picoHIL[00606403ms]>> t:1.4647 steplen: 79us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00606654ms]>> t:1.7156 steplen: 81us adc0-2: 0.2293 0.2293 0.2232
+picoHIL[00606905ms]>> t:1.9665 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00607156ms]>> t:2.2175 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991414,high_us=495658,freq_hz=1.009,duty_pct=50.00
+picoHIL[00607407ms]>> t:2.4684 steplen: 80us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00607658ms]>> t:2.7193 steplen: 80us adc0-2: 0.2295 0.2300 0.2230
+picoHIL[00607909ms]>> t:2.9704 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00608160ms]>> t:3.2213 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991339,high_us=495654,freq_hz=1.009,duty_pct=50.00
+picoHIL[00608411ms]>> t:3.4721 steplen: 80us adc0-2: 0.2298 0.2293 0.2222
+picoHIL[00608662ms]>> t:3.7232 steplen: 80us adc0-2: 0.2295 0.2298 0.2227
+picoHIL[00608913ms]>> t:3.9741 steplen: 79us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00609164ms]>> t:4.2253 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991330,high_us=495677,freq_hz=1.009,duty_pct=50.00
+picoHIL[00609415ms]>> t:4.4768 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00609666ms]>> t:4.7281 steplen: 80us adc0-2: 0.2300 0.2295 0.2227
+picoHIL[00609917ms]>> t:4.9794 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+picoHIL[00610168ms]>> t:5.2308 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991358,high_us=495702,freq_hz=1.009,duty_pct=50.00
+picoHIL[00610419ms]>> t:5.4821 steplen: 80us adc0-2: 0.2295 0.2291 0.2234
+picoHIL[00610670ms]>> t:5.7334 steplen: 81us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00610921ms]>> t:5.9848 steplen: 80us adc0-2: 0.2298 0.2288 0.2227
+picoHIL[00611172ms]>> t:6.2361 steplen: 80us adc0-2: 0.2300 0.2308 0.2230
+E1_PWM,GPIO6,period_us=991416,high_us=495698,freq_hz=1.009,duty_pct=50.00
+picoHIL[00611423ms]>> t:6.4874 steplen: 80us adc0-2: 0.2295 0.2298 0.2230
+picoHIL[00611674ms]>> t:6.7388 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00611925ms]>> t:6.9901 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00612176ms]>> t:7.2414 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+E1_PWM,GPIO6,period_us=991371,high_us=495654,freq_hz=1.009,duty_pct=50.00
+picoHIL[00612427ms]>> t:7.4929 steplen: 80us adc0-2: 0.2295 0.2295 0.2205
+picoHIL[00612678ms]>> t:7.7442 steplen: 80us adc0-2: 0.2295 0.2295 0.2230
+picoHIL[00612929ms]>> t:7.9954 steplen: 79us adc0-2: 0.2308 0.2293 0.2230
+picoHIL[00613180ms]>> t:8.2461 steplen: 80us adc0-2: 0.2293 0.2313 0.2230
+E1_PWM,GPIO6,period_us=991362,high_us=495682,freq_hz=1.009,duty_pct=50.00
+picoHIL[00613431ms]>> t:8.4966 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00613682ms]>> t:8.7471 steplen: 80us adc0-2: 0.2295 0.2281 0.2227
+picoHIL[00613933ms]>> t:8.9977 steplen: 80us adc0-2: 0.2300 0.2295 0.2230
+picoHIL[00614184ms]>> t:9.2482 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991350,high_us=495678,freq_hz=1.009,duty_pct=50.00
+picoHIL[00614435ms]>> t:9.4987 steplen: 81us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00614686ms]>> t:9.7494 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00614937ms]>> t:9.9999 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00615188ms]>> t:0.2508 steplen: 79us adc0-2: 0.2298 0.2295 0.2232
+E1_PWM,GPIO6,period_us=991333,high_us=495644,freq_hz=1.009,duty_pct=50.00
+picoHIL[00615439ms]>> t:0.5019 steplen: 79us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00615690ms]>> t:0.7529 steplen: 80us adc0-2: 0.2298 0.2295 0.2232
+picoHIL[00615941ms]>> t:1.0039 steplen: 80us adc0-2: 0.2298 0.2291 0.2234
+picoHIL[00616192ms]>> t:1.2549 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+E1_PWM,GPIO6,period_us=991326,high_us=495654,freq_hz=1.009,duty_pct=50.00
+picoHIL[00616443ms]>> t:1.5058 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00616694ms]>> t:1.7567 steplen: 80us adc0-2: 0.2308 0.2293 0.2230
+picoHIL[00616945ms]>> t:2.0077 steplen: 79us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00617196ms]>> t:2.2586 steplen: 80us adc0-2: 0.2293 0.2293 0.2225
+E1_PWM,GPIO6,period_us=991364,high_us=495679,freq_hz=1.009,duty_pct=50.00
+picoHIL[00617447ms]>> t:2.5095 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00617698ms]>> t:2.7606 steplen: 79us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00617949ms]>> t:3.0115 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00618200ms]>> t:3.2623 steplen: 80us adc0-2: 0.2291 0.2291 0.2234
+E1_PWM,GPIO6,period_us=991371,high_us=495668,freq_hz=1.009,duty_pct=50.00
+picoHIL[00618451ms]>> t:3.5134 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00618702ms]>> t:3.7643 steplen: 80us adc0-2: 0.2295 0.2291 0.2227
+picoHIL[00618953ms]>> t:4.0152 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00619204ms]>> t:4.2666 steplen: 80us adc0-2: 0.2295 0.2291 0.2232
+E1_PWM,GPIO6,period_us=991326,high_us=495663,freq_hz=1.009,duty_pct=50.00
+picoHIL[00619455ms]>> t:4.5179 steplen: 80us adc0-2: 0.2283 0.2293 0.2227
+picoHIL[00619706ms]>> t:4.7692 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00619957ms]>> t:5.0207 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00620208ms]>> t:5.2720 steplen: 80us adc0-2: 0.2298 0.2298 0.2230
+E1_PWM,GPIO6,period_us=991361,high_us=495666,freq_hz=1.009,duty_pct=50.00
+picoHIL[00620459ms]>> t:5.5232 steplen: 79us adc0-2: 0.2295 0.2295 0.2232
+picoHIL[00620710ms]>> t:5.7747 steplen: 80us adc0-2: 0.2295 0.2300 0.2230
+picoHIL[00620961ms]>> t:6.0260 steplen: 80us adc0-2: 0.2298 0.2295 0.2230
+picoHIL[00621212ms]>> t:6.2773 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991470,high_us=495719,freq_hz=1.009,duty_pct=50.00
+picoHIL[00621463ms]>> t:6.5287 steplen: 79us adc0-2: 0.2300 0.2293 0.2230
+picoHIL[00621714ms]>> t:6.7800 steplen: 80us adc0-2: 0.2300 0.2291 0.2230
+picoHIL[00621965ms]>> t:7.0313 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00622216ms]>> t:7.2827 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991427,high_us=495715,freq_hz=1.009,duty_pct=50.00
+picoHIL[00622467ms]>> t:7.5340 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00622718ms]>> t:7.7853 steplen: 80us adc0-2: 0.2295 0.2293 0.2225
+picoHIL[00622969ms]>> t:8.0366 steplen: 80us adc0-2: 0.2298 0.2293 0.2222
+picoHIL[00623220ms]>> t:8.2871 steplen: 79us adc0-2: 0.2295 0.2293 0.2225
+E1_PWM,GPIO6,period_us=991430,high_us=495679,freq_hz=1.009,duty_pct=50.00
+picoHIL[00623471ms]>> t:8.5376 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00623722ms]>> t:8.7883 steplen: 80us adc0-2: 0.2230 0.2293 0.2227
+picoHIL[00623973ms]>> t:9.0388 steplen: 80us adc0-2: 0.2293 0.2293 0.2232
+picoHIL[00624224ms]>> t:9.2893 steplen: 80us adc0-2: 0.2293 0.2288 0.2230
+E1_PWM,GPIO6,period_us=991399,high_us=495688,freq_hz=1.009,duty_pct=50.00
+picoHIL[00624475ms]>> t:9.5399 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00624726ms]>> t:9.7904 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00624977ms]>> t:0.0409 steplen: 79us adc0-2: 0.2295 0.2286 0.2234
+picoHIL[00625228ms]>> t:0.2920 steplen: 79us adc0-2: 0.2286 0.2293 0.2234
+E1_PWM,GPIO6,period_us=991418,high_us=495713,freq_hz=1.009,duty_pct=50.00
+picoHIL[00625479ms]>> t:0.5430 steplen: 79us adc0-2: 0.2295 0.2295 0.2232
+picoHIL[00625730ms]>> t:0.7940 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+picoHIL[00625981ms]>> t:1.0451 steplen: 80us adc0-2: 0.2291 0.2291 0.2225
+picoHIL[00626232ms]>> t:1.2960 steplen: 80us adc0-2: 0.2298 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991442,high_us=495696,freq_hz=1.009,duty_pct=50.00
+picoHIL[00626483ms]>> t:1.5469 steplen: 80us adc0-2: 0.2291 0.2288 0.2232
+picoHIL[00626734ms]>> t:1.7979 steplen: 80us adc0-2: 0.2295 0.2293 0.2232
+picoHIL[00626985ms]>> t:2.0488 steplen: 81us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00627236ms]>> t:2.2997 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991428,high_us=495719,freq_hz=1.009,duty_pct=50.00
+picoHIL[00627487ms]>> t:2.5508 steplen: 80us adc0-2: 0.2291 0.2293 0.2230
+picoHIL[00627738ms]>> t:2.8017 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00627989ms]>> t:3.0525 steplen: 80us adc0-2: 0.2298 0.2295 0.2232
+picoHIL[00628240ms]>> t:3.3036 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991391,high_us=495704,freq_hz=1.009,duty_pct=50.00
+picoHIL[00628491ms]>> t:3.5545 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00628742ms]>> t:3.8054 steplen: 80us adc0-2: 0.2298 0.2291 0.2227
+picoHIL[00628993ms]>> t:4.0565 steplen: 80us adc0-2: 0.2291 0.2293 0.2227
+picoHIL[00629244ms]>> t:4.3078 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+E1_PWM,GPIO6,period_us=991445,high_us=495691,freq_hz=1.009,duty_pct=50.00
+picoHIL[00629495ms]>> t:4.5591 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00629746ms]>> t:4.8105 steplen: 80us adc0-2: 0.2293 0.2293 0.2227
+picoHIL[00629997ms]>> t:5.0618 steplen: 80us adc0-2: 0.2293 0.2295 0.2230
+picoHIL[00630248ms]>> t:5.3131 steplen: 79us adc0-2: 0.2293 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991421,high_us=495712,freq_hz=1.009,duty_pct=50.00
+picoHIL[00630499ms]>> t:5.5645 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00630750ms]>> t:5.8158 steplen: 80us adc0-2: 0.2303 0.2293 0.2227
+picoHIL[00631001ms]>> t:6.0671 steplen: 80us adc0-2: 0.2298 0.2293 0.2230
+picoHIL[00631252ms]>> t:6.3186 steplen: 79us adc0-2: 0.2298 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991433,high_us=495715,freq_hz=1.009,duty_pct=50.00
+picoHIL[00631503ms]>> t:6.5699 steplen: 80us adc0-2: 0.2295 0.2293 0.2227
+picoHIL[00631754ms]>> t:6.8212 steplen: 80us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00632005ms]>> t:7.0726 steplen: 80us adc0-2: 0.2293 0.2288 0.2227
+picoHIL[00632256ms]>> t:7.3239 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+E1_PWM,GPIO6,period_us=991417,high_us=495696,freq_hz=1.009,duty_pct=50.00
+picoHIL[00632507ms]>> t:7.5752 steplen: 80us adc0-2: 0.2295 0.2291 0.2242
+picoHIL[00632758ms]>> t:7.8266 steplen: 80us adc0-2: 0.2293 0.2291 0.2227
+picoHIL[00633009ms]>> t:8.0777 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00633260ms]>> t:8.3282 steplen: 81us adc0-2: 0.2295 0.2293 0.2227
+E1_PWM,GPIO6,period_us=991460,high_us=495719,freq_hz=1.009,duty_pct=50.00
+picoHIL[00633511ms]>> t:8.5788 steplen: 80us adc0-2: 0.2295 0.2293 0.2230
+picoHIL[00633762ms]>> t:8.8293 steplen: 80us adc0-2: 0.2291 0.2291 0.2232
+picoHIL[00634013ms]>> t:9.0798 steplen: 79us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00634264ms]>> t:9.3304 steplen: 79us adc0-2: 0.2298 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991432,high_us=495706,freq_hz=1.009,duty_pct=50.00
+picoHIL[00634515ms]>> t:9.5809 steplen: 80us adc0-2: 0.2300 0.2293 0.2232
+picoHIL[00634766ms]>> t:9.8314 steplen: 80us adc0-2: 0.2293 0.2291 0.2232
+picoHIL[00635017ms]>> t:0.0822 steplen: 79us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00635268ms]>> t:0.3331 steplen: 79us adc0-2: 0.2286 0.2293 0.2232
+E1_PWM,GPIO6,period_us=991345,high_us=495683,freq_hz=1.009,duty_pct=50.00
+picoHIL[00635519ms]>> t:0.5841 steplen: 79us adc0-2: 0.2300 0.2291 0.2230
+picoHIL[00635770ms]>> t:0.8352 steplen: 80us adc0-2: 0.2295 0.2291 0.2230
+picoHIL[00636021ms]>> t:1.0862 steplen: 81us adc0-2: 0.2293 0.2291 0.2230
+picoHIL[00636272ms]>> t:1.3371 steplen: 80us adc0-2: 0.2293 0.2293 0.2230
+E1_PWM,GPIO6,period_us=991397,high_us=495662,freq_hz=1.009,duty_pct=50.00
+picoHIL[00636523ms]>> t:1.5881 steplen: 79us adc0-2: 0.2298 0.2291 0.2232
+picoHIL[00636774ms]>> t:1.8390 steplen: 81us adc0-2: 0.2291 0.2291 0.2227
+picoHIL[00637025ms]>> t:2.0899 steplen: 80us adc0-2: 0.2291 0.2293 0.2227
+picoHIL[00637276ms]>> t:2.3410 steplen: 80us adc0-2: 0.2293 0.2291 0.2234
+---- Closed the serial port COM3 ----
